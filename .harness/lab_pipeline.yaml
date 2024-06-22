@@ -32,8 +32,7 @@ pipeline:
                   spec:
                     shell: Sh
   steps:
-    - step: null
-      type: Run
+    - type: Run
       identifier: build_python_app
       name: Build Python App
       spec:
